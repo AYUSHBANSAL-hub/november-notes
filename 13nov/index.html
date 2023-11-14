@@ -1,18 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <!-- <style>
+        #eg1{
+            color: blue;
+            background-color: aqua;
+        }
+        #eg2{
+            color: greenyellow;
+            background-color: black;
+        }
+        p{
+            color: aqua;
+            background-color: blueviolet;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./style.css" >
+  </head>
+  <body>
     <!-- 
-        1. Wrapping up git and github
-        2. Intro to css
-        3. CSS Selectors
+        1. Wrapping up git and github (done)
+        2. Intro to css (done)
+        3. CSS Selectors (done)
         4. Text Properties
         5. Font Properties
      -->
-     
-</body>
+
+    <!-- 
+        Cascading Style Sheets
+      -->
+    <!-- 
+        Purpose of CSS:
+        1. Consistency
+       -->
+    <!-- 
+        Three ways to use CSS with HTML:
+        1. Inline
+        2. Internal
+        3. External
+        -->
+        <!-- inline >internal> external -->
+    <!-- 
+            color: red; (provides red color to the text)
+            background-color: pink; (provide pink background color to the element)
+         -->
+    <!-- 
+            Inline CSS
+        -->
+    <h1 style="color: red; background-color: yellow">Ayush AccioJob</h1>
+    <h1>H<sub>2</sub>SO<sub>4</sub></h1>
+    <p style="color: green; background-color: blue">
+      Ayush <i>AccioJob-</i> Frontend Developer
+    </p>
+    <p style="background-color: black; color: white">
+      Ayush <s>AccioJob-</s> Frontend Developer
+    </p>
+    <p>Ayush <small>AccioJob-</small> Frontend Developer</p>
+    <!-- 
+        Pros:
+        1. Quick and easy 
+        2. Highest Priority
+        Cons:
+        1. Not suitable for big projects
+        2. It is considered as a bad practise because it
+        reduces code readability
+        3. It does not provide code reusability
+     -->
+    <!-- Internal CSS -->
+    <h1 id="eg1">Hello World</h1>
+    <p id="eg2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, sint.
+    </p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, maiores?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum placeat, distinctio itaque explicabo architecto labore perferendis, vel deleniti porro similique ratione adipisci aliquam sunt corporis laboriosam animi laborum voluptatibus impedit nam magnam nesciunt doloremque maiores. Dignissimos exercitationem ad assumenda? Error dignissimos fugiat autem cumque omnis recusandae exercitationem sint minus, nam quia. Fugiat laudantium voluptatem veritatis a debitis aliquid quae quis dicta nemo ex est facilis nam earum corrupti deserunt sapiente atque nesciunt ratione ipsa animi, doloremque, modi, velit alias soluta? Explicabo molestias illo officia voluptatibus, doloremque minima eos quaerat inventore ratione! Hic repellat sed illum dolorum voluptatibus laborum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum placeat, distinctio itaque explicabo architecto labore perferendis, vel deleniti porro similique ratione adipisci aliquam sunt corporis laboriosam animi laborum voluptatibus impedit nam magnam nesciunt doloremque maiores. Dignissimos exercitationem ad assumenda? Error dignissimos fugiat autem cumque omnis recusandae exercitationem sint minus, nam quia. Fugiat laudantium voluptatem veritatis a debitis aliquid quae quis dicta nemo ex est facilis nam earum corrupti deserunt sapiente atque nesciunt ratione ipsa animi, doloremque, modi, velit alias soluta? Explicabo molestias illo officia voluptatibus, doloremque minima eos quaerat inventore ratione! Hic repellat sed illum dolorum voluptatibus laborum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum placeat, distinctio itaque explicabo architecto labore perferendis, vel deleniti porro similique ratione adipisci aliquam sunt corporis laboriosam animi laborum voluptatibus impedit nam magnam nesciunt doloremque maiores. Dignissimos exercitationem ad assumenda? Error dignissimos fugiat autem cumque omnis recusandae exercitationem sint minus, nam quia. Fugiat laudantium voluptatem veritatis a debitis aliquid quae quis dicta nemo ex est facilis nam earum corrupti deserunt sapiente atque nesciunt ratione ipsa animi, doloremque, modi, velit alias soluta? Explicabo molestias illo officia voluptatibus, doloremque minima eos quaerat inventore ratione! Hic repellat sed illum dolorum voluptatibus laborum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum placeat, distinctio itaque explicabo architecto labore perferendis, vel deleniti porro similique ratione adipisci aliquam sunt corporis laboriosam animi laborum voluptatibus impedit nam magnam nesciunt doloremque maiores. Dignissimos exercitationem ad assumenda? Error dignissimos fugiat autem cumque omnis recusandae exercitationem sint minus, nam quia. Fugiat laudantium voluptatem veritatis a debitis aliquid quae quis dicta nemo ex est facilis nam earum corrupti deserunt sapiente atque nesciunt ratione ipsa animi, doloremque, modi, velit alias soluta? Explicabo molestias illo officia voluptatibus, doloremque minima eos quaerat inventore ratione! Hic repellat sed illum dolorum voluptatibus laborum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatum placeat, distinctio itaque explicabo architecto labore perferendis, vel deleniti porro similique ratione adipisci aliquam sunt corporis laboriosam animi laborum voluptatibus impedit nam magnam nesciunt doloremque maiores. Dignissimos exercitationem ad assumenda? Error dignissimos fugiat autem cumque omnis recusandae exercitationem sint minus, nam quia. Fugiat laudantium voluptatem veritatis a debitis aliquid quae quis dicta nemo ex est facilis nam earum corrupti deserunt sapiente atque nesciunt ratione ipsa animi, doloremque, modi, velit alias soluta? Explicabo molestias illo officia voluptatibus, doloremque minima eos quaerat inventore ratione! Hic repellat sed illum dolorum voluptatibus laborum et?</p>
+    <!-- 
+        Pros:
+        1. Keeps the file clean
+        2. provides reusability
+        3. No extra file is needed to be created
+        CONS:
+        1. We are still not able to use the code written for multi page website.
+        2. It is better to create a seperate file altogether for css since it 
+        has a different work/function.
+     -->
+     <!-- External css -->
+  </body>
 </html>
