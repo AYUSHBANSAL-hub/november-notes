@@ -1,0 +1,44 @@
+#box{
+    width: 500px;
+    height: 500px;
+    /* 1. Background-color */
+    /* background-color: red; */
+    /* 2. Background-image */
+    background-image: url("https://images.unsplash.com/photo-1699002159193-68fd17410f46?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 100px 30px;
+
+    /* border-style: solid;
+    border-width: 40px;
+    border-color: pink; */
+    border: 10px solid blue;
+    /* Shorthand property */
+    /* border-radius: 50%; */
+    /* border-top: 10px solid green;
+    border-right: 40px dotted blue;
+    border-bottom: 5px dashed pink;
+    border-left: 20px inset red; */
+    /* border-top-right-radius: 30px; */
+}
+/* border: none */
+
+
+#btn-1{
+    background-color: blue;
+    color: white;
+    line-height: 100px;
+    border: none;
+}
+
+#checkout_page{
+    display: flex;
+}
+
+#checkout_main{
+    flex: 4;
+}
+
+#checkout_bill{
+    flex: 1;
+}

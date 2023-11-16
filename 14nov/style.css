@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#eg1{
+    /* 1. Color Property */
+    /* color: white;
+    text-shadow: 0px 0px 10px red; */
+    /* named Color */
+    /* RGB: red green blue */
+    /* hexcode: #rrggbb */
+    /* RGBA: Red green blue alpha */
+    /* hsl: hue saturation lightness */
+    /* Text Align */
+    /* text-align: left/ right/ center; */
+    /* Justify */
+    /* Font Family */
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Inter', sans-serif;
+}
+
+/* 
+2024 the most popular fonts:
+1. Inter
+2. Poppins
+ */
+#eg3{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+#eg2{
+    /* text-align: justify; */
+    /* text Decoration */
+    /* text-decoration: blue dotted underline; */
+    /* Text- Transform */
+    /* text-transform: capitalize; */
+    /* line-height: 150%; */
+}
+
+#eg4{
+   font-size: 100%;
+}
+#eg5{
+   font-size: 20px
+}
+#eg6{
+   font-size: 30px
+}
+#eg7{
+   font-size: 50px
+}
+
+/* Font size */
