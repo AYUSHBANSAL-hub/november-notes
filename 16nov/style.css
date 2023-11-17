@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+}
+
+#eg1 {
+  background-color: aqua;
+  width: 90%;
+  height: 50%;
+  /* Absolute */
+  /* px, cm, mm */
+  /* Relative */
+  /* % */
+}
+
+#eg2 {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+}
+
+#box1 {
+  width: 300px;
+  height: 300px;
+  margin: 100px;
+  background-color: aqua;
+  box-sizing: border-box;
+  /* one value in margin */
+  /* margin: 100px; */
+  /* two values */
+  /* margin: 10px 30px; */
+  /* three values */
+  /* margin: 10px 50px 100px; */
+  /* four values */
+  /* margin: top left/right bottom */
+  /* margin: 10px 20px 30px 40px; */
+  /* margin: top right bottom left */
+  /* dedicated directional props */
+  /* margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-left: 100px; */
+  /* margin in x direction */
+  /* margin-inline: auto; */
+  /* margin: 50px; */
+  /* margin collapsing */
+  /* one value */
+  /* padding: 100px; */
+  /* two values */
+  /* padding: 10px 20px; */
+  /* padding: y-axis x-axis */
+  /* three values */
+  /* padding: 10px 20px 30px; */
+  /* top left/right bottom */
+  /*  */
+  /* four values */
+  /* padding: 10px 20px 30px 40px; */
+  /* padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px; */
+}
+
+#box2 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin: 50px;
+}
+
+#box3,
+#box4 {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  border: 4px solid red;
+}
+#box3 {
+  position: relative;
+}
+#box4 {
+  background-color: yellow;
+  /* position: sticky; */
+  /* top: 400px; */
+}
+
+#whatsApp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3fc250;
+  padding: 10px;
+  border: 5px solid beige;
+  /* position: fixed;
+  top: 10px;
+  right: 10px; */
+}
+
+.navbar {
+  padding: 20px;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  background-color: red;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.link {
+  margin-inline: 20px;
+}
+
+#box6 {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  position: sticky;
+  top: 200px;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  border: 10px solid blue;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#blue {
+  background-color: blue;
+}
+#red {
+  background-color: red;
+}
