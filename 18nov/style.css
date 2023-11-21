@@ -1,0 +1,69 @@
+#my-container{
+    width: 480px;
+    background-color: pink;
+    display: grid;
+    /* Absolute */
+    /* grid-template-columns: 100px 200px 100px; */
+    /* Fraction */
+    /* grid-template-columns: 1fr 4fr 10fr; */
+    /* percentage */
+    /* grid-template-columns: 10% 20% 40%; */
+    /* auto */
+    /* grid-template-columns: 100px 100px auto; */
+    /* grid-template-columns: 100px 10% 2fr 5fr; */
+    /* Repeat function */
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: repeat(5, 50px);
+    /* grid-template-columns: minmax(100px,1fr) 100px 1fr; */
+    grid-template-areas:
+    "red green green green blue blue"
+    "red green green green blue blue"
+    "red green green green a a"
+    "red green green green a a"
+    "red green green green a a"
+    ;
+
+}
+.red{
+    background-color: red;  
+      /* 
+    Using grid column start/end we define the start
+    of grid item */
+    grid-area: red;
+    /* grid-row-start: 1;
+    grid-row-end: 6; */
+    /* grid-row: 1/6; */
+
+
+}
+.green{
+    background-color: green;
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    /* grid-column: 2/5 ; */
+    /* grid-row-start: 1;
+    grid-row-end: 6; */
+    /* grid-row:1/6 ; */
+    grid-area: green;
+}
+.blue{
+    background-color: blue;
+    /* grid-column-start: 5;
+    grid-column-end: 7; */
+    /* grid-column: 5/7; */
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* grid-row: 1/4; */
+    grid-area: blue;
+    
+}
+.yellow{
+    grid-area: a;
+    background-color: yellow;
+    /* grid-column-start: 5;
+    grid-column-end: 7; */
+    /* grid-column: 5/7; */
+    /* grid-row-start: 4;
+    grid-row-end: 6; */
+    /* grid-row: 4/6; */
+}

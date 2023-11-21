@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+/* #box1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+} */
+
+/* width */
+/* min width
+max width
+width */
+/* @media screen and (min-width:500px){
+    Width should be atleast 500px
+    #box1{
+        background-color: yellow;
+    }
+} */
+/* @media screen and (max-width:800px) { */
+/* width be at max 800px */
+/* #box1{
+        background-color: brown;
+    }
+} */
+/* @media screen and (width: 777px) {
+    #box1{
+        background-color: aqua;
+    }
+} */
+
+/* orientation */
+/* @media screen and (orientation: landscape) {
+    #box1{
+        background-color: pink;
+    }
+} */
+
+/* New Start */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0px 5px 20px rgb(87, 83, 83);
+  padding: 13px;
+}
+
+#navlinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navlinks > li {
+  list-style-type: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4f4f4f;
+  padding-inline: 20px;
+}
+
+nav > button {
+  border: 2px solid #2e80ec;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  color: #2e80ec;
+  font-weight: 900;
+}
+
+#container1 {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#container1 > img {
+  height: 400px;
+}
+
+#main-container1 {
+  width: 500px;
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ff9d6c, #ff6c8c);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card>h2{
+    padding: 20px;
+    text-align: center;
+}
+.card>p{
+    padding: 20px;
+}
+
+.card>div{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.163);
+}
+
+.card>div>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.card>div>a:hover{
+    color: orange;
+}
+
+
+
+
+
+@media screen and (max-width: 760px) {
+  nav {
+    flex-direction: column;
+  }
+  #navlinks {
+    justify-content: center;
+  }
+  #navlinks > li {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  #container1 > img {
+    width: 100%;
+    height: auto;
+  }
+  #main-container1 {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .card{
+    width: 90vw;
+  }
+
+  .card>p{
+    text-align: justify;
+  }
+}
+/* Standardised values once in the end: Breakpoints */
