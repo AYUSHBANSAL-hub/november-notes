@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#top_section {
+  background: url("./assets/bg_1.svg");
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 40px;
+  height: 98px;
+}
+nav > img {
+  width: 120px;
+  height: 120px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  margin-inline: 32px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+
+  font-family: Tahoma;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav > ul > li > p {
+  display: flex;
+  width: 153px;
+  height: 48px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.23);
+  box-shadow: 0px 8px 20px 0px rgba(37, 206, 209, 0.15),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: var(--garlic, #fff);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px; /* 193.75% */
+  letter-spacing: 0.32px;
+
+  text-transform: capitalize;
+}
+
+nav > ul > li > p > span {
+  background: -webkit-linear-gradient(135deg, yellow, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#hero_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+
+#hero_col1 > h2 {
+  background: linear-gradient(
+    259deg,
+    rgba(254, 244, 220, 0.95) 51.4%,
+    rgba(255, 255, 255, 0.95) 100.09%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#hero_col1 > h1 {
+  color: #fff;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(-259deg, #20f2ff, #85ff98a6, #ffc700a8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+
+#hero_col1 > h2 > span {
+  background: linear-gradient(
+    259deg,
+    rgba(31, 220, 0, 0.89) 51.4%,
+    rgba(255, 255, 255, 1) 100.09%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#left_circle {
+  position: absolute;
+  left: -50%;
+  bottom: -100%;
+  border-radius: 1697px;
+  width: 1697px;
+  height: 1692.772px;
+  background: radial-gradient(
+    54% 53.9% at 50% 50%,
+    rgba(207, 97, 73, 0.33) 0%,
+    rgba(42, 138, 98, 0) 100%
+  );
+  z-index: 0;
+}
