@@ -1,0 +1,24 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eg1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 5s ease;
+    border-top: 5px solid blue;
+    /* Translate Functions */
+    /* Scale Functions */
+}
+#eg1:hover{
+    /* transform:scale(2,4); */
+    /* width: 200px;
+    height: 300px; */
+    /* transform: rotate(-360deg); */
+    transform: rotateY(45deg);
+}

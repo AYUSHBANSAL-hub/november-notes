@@ -1,0 +1,119 @@
+#eg1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition: all 5s linear 3s;
+    /* transition: <property> <duration> <timing-function> <delay> */
+    /* 
+    linear->constant speed
+    ease-> slow-fast-slow
+    ease-in: slow then fast
+    ease-out: fast then slow
+    ease-in-out: slow-fast-slow but more visible
+    cubic-bezier func: It is used to create custom timing functions. 
+    Also it takes 4 values in the function as paramater
+    */
+}
+/* Transition on Hover */
+#eg1:hover{
+    width: 400px;
+}
+
+/* Transaction on Click */
+#btn1{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: blue;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 0.5s ease;
+}
+
+#btn1:hover{
+    opacity: 0.8;
+}
+#btn1:active{
+   opacity: 0.5;
+}
+/* Transition on Delay (border)*/
+
+
+#eg2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    transition: border-color 0.5s ease 1s;
+}
+
+#eg2:hover{
+    border-color: red;
+}
+
+/* Transition on multiple Props */
+#eg4{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: height 5s ease, width 2s linear, background-color 10s ease;
+}
+
+#eg4:hover{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+}
+
+/* Transition on Text (color) */
+
+.text{
+    color: blue;
+    font-size: 20px;
+    transition: color 0.5s ease;
+}
+
+.text:hover{
+    color: red;
+}
+
+/* Transition on Box Shadow */
+
+
+#eg5{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 10px 10px 10px red;
+    transition: all 1s ease;
+}
+
+#eg5:hover{
+    box-shadow: 10px 10px 100px red;
+}
+
+/* Transition on Transform */
+#eg7{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    transition: all 2s ease;
+}
+
+#eg7:hover{
+    transform: rotate(360deg);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 5px solid blue;
+    margin: 10px;
+    transition: all 1s ease;
+}
+
+.box:hover{
+    background-color: red;
+}
