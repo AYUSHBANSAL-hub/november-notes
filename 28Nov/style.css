@@ -1,0 +1,145 @@
+#parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader {
+  width: 100px;
+  height: 100px;
+  border: 15px solid red;
+  border-radius: 50%;
+  border-top: 15px solid white;
+  animation: loader 2s linear 0s infinite;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 2. Fade-in */
+/* 3. Scaling */
+#fade-in {
+  animation: fade-in 2s ease 0s infinite alternate;
+  text-align: center;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+#banner {
+  width: 800px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  animation: slide-in 10s linear 0s infinite normal;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orangered;
+  border: 5px solid black;
+  animation: bouncing-ball 1s ease-in 0s infinite alternate;
+}
+
+@keyframes bouncing-ball {
+    0%{
+        transform: translateY(0px);
+        box-shadow: 0px 30px 100px black;
+    }
+    100%{
+        transform: translateY(200px);
+        box-shadow: 0px 50px 30px black;
+    }
+}
+#eye{
+    width: 500px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top: 20px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: blink 1s ease-out 2s infinite alternate;
+    overflow: hidden;
+}
+
+#eye-ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    border: 50px solid brown;
+}
+
+
+@keyframes blink {
+    0%{
+        height: 10px;
+    }
+    100%{
+        height: 200px;
+    }
+}
+
+#triangle{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+#left{
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    transform: rotate(-30deg);
+}
+#right{
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+    transform: rotate(-150deg);
+}
